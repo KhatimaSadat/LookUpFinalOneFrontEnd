@@ -1,0 +1,104 @@
+/* customer container the section above contact us */
+.general{
+  background-color: rgb(026, 045, 083);
+  margin-top: 60px;
+  margin-bottom: 0px;
+  padding: 10px 0px;
+ 
+}
+.general article{
+  color: white;
+  padding:10px;
+
+}
+.general .main{
+  margin: 0px 0px;
+   
+   padding: 0px;
+   margin-bottom: 20px;
+  
+}
+.general .main .wrapper{
+  width: 100%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+/* this is a class of carsousel library*/
+.thumbs-wrapper.axis-vertical{
+  display: none;
+}
+.general .main .wrapper .section{
+  background-color: white;
+  width: 800px;
+  height: 170px;
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+.general .main .wrapper .section img{
+  width: 200px;
+  height: 170px;
+  flex: 1;
+  object-position: center;
+  object-fit: cover;
+}
+.general .main .wrapper .section .paragraphe {
+  color: rgb(9, 9, 41);
+  line-height: 16px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   font-size: 17px;
+   height: 165px;
+   padding-left: 10px;
+   
+} 
+.general .main .wrapper .section .paragraphe  h5{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  text-align: left;
+} 
+.general .main .wrapper .section .paragraphe .comma{
+  margin: 0px;
+  padding: 0px;
+  color: rgb(28, 28, 86);
+  font-size: 35px;
+  text-align: left;
+  font-weight: bold;
+  
+} 
+
+.general .main .wrapper .section .paragraphe p{
+  padding-left: 15px;
+  margin-top: -2xp;
+  padding-top: 0px;
+  
+}
+
+.general .main .wrapper .section .paragraphe .footer{
+  background-color: white;
+  color: rgb(28, 28, 86);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  margin-top: 0px;
+  
+  
+     
+}
+.general .main .wrapper .section .paragraphe .footer .email{
+  font-weight: bold;
+}
+.general .main .wrapper .section .paragraphe .footer .detail{
+  border: 2px solid rgb(28, 28, 86);
+      padding: 5px;
+      cursor: pointer;
+      
+}
+
